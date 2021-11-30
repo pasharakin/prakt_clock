@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prakt_culculator.Page1" 
+              Title="Часы">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Часы"  FontSize="50"  HorizontalOptions="CenterAndExpand"  VerticalOptions="Start"  TextColor="HotPink" />
+            <StackLayout Orientation="Horizontal"  VerticalOptions="StartAndExpand" >
+                <Label x:Name="date_Date"  Text=""  FontSize="40"  TextColor="Black"  HorizontalOptions="StartAndExpand" />
+                <Label x:Name="time_Time"  Text=""  FontSize="40"  TextColor="Black"  HorizontalOptions="EndAndExpand" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

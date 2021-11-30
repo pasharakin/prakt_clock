@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prakt_culculator.Page3" 
+             Title="Таймер">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Таймер" FontSize="50" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" TextColor="HotPink"/>
+            <TimePicker x:Name="timePicker" HorizontalOptions="Center" Format="HH:mm:ss" FontSize="40"/>
+            <Label x:Name="timer" HorizontalOptions="Center" Text="00:00:00" FontSize="40" TextColor="Black"/>
+            <Button x:Name="btn_Start" Text="Старт" FontSize="14" TextColor="Black" BorderColor="DarkGoldenrod" BorderWidth="2" BorderRadius="20" HorizontalOptions="CenterAndExpand" BackgroundColor="AliceBlue" Clicked="butonStart_Clicked"/>
+            <Button x:Name="btn_Restart" Text="Сброс" FontSize="14" TextColor="Black" BorderColor="DarkGoldenrod" BorderWidth="2" BorderRadius="20" HorizontalOptions="CenterAndExpand" BackgroundColor="AliceBlue" Clicked="buton_Restart_Clicked"/>
+            <Button x:Name="btn_Stop" Text="Стоп" FontSize="14" TextColor="Black" BorderColor="DarkGoldenrod" BorderWidth="2" BorderRadius="20" HorizontalOptions="CenterAndExpand" BackgroundColor="AliceBlue" Clicked="butonStop_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
